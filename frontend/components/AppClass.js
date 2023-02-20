@@ -126,9 +126,9 @@ export default class AppClass extends React.Component {
 
   post = () => {
     const toPost = {
-      "xPoint" : this.state.xPoint,
-      "yPoint" : this.state.yPoint,
-      "stepsMoved" : this.state.stepsMoved,
+      "x" : this.state.xPoint,
+      "y" : this.state.yPoint,
+      "steps" : this.state.stepsMoved,
       "email": this.state.formValues
     }
     axios.post(URL, toPost)

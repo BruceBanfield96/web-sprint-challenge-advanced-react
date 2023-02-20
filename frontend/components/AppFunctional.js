@@ -120,9 +120,9 @@ export default function AppFunctional(props) {
 
   function postRequest(){
     const toPost = {
-      "xPoint" : xPoint,
-      "yPoint" : yPoint,
-      "moves" : movesMade,
+      "x" : xPoint,
+      "y" : yPoint,
+      "steps" : movesMade,
       "email" : formValue
     }
 
